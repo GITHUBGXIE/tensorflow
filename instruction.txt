@@ -1,0 +1,6 @@
+ tensorboard --logdir=./tb_logs
+http://localhost:6006
+
+try-retrain
+
+ python .\try-retrain.py .\test-images\tulip1.jpg
