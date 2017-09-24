@@ -1,6 +1,15 @@
  tensorboard --logdir=./tb_logs
 http://localhost:6006
 
+inception 
+
+C:\Users\wango\Dev\tensorflow\columbus\tf_source\tensorflow\examples\image_retraining
+retrain.py --image_dir=tf_files\flower_photos
+for images
+
+tensorboard --logdir=/tmp/retrain_logs 
+
 try-retrain
 
  python .\try-retrain.py .\test-images\tulip1.jpg
+
